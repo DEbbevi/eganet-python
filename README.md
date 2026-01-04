@@ -112,7 +112,7 @@ If you use EGAnet-Python in your research, please cite both the Python package a
 ```bibtex
 @software{eganet_python,
   title = {EGAnet-Python: Exploratory Graph Analysis for Python},
-  author = {EGAnet Python Contributors},
+  author = {David Ebbevi},
   year = {2025},
   url = {https://github.com/DEbbevi/eganet-python}
 }

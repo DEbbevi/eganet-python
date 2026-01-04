@@ -138,7 +138,7 @@ Golino, H., Shi, D., Christensen, A. P., Garrido, L. E., Nieto, M. D., Sadana, R
 
 ## Credits
 
-This Python implementation is based on the [EGAnet R package](https://github.com/hfgolino/EGAnet) developed by:
+I hardly did anything. Don't cite this repository without also citing r-ega.net. This Python implementation is based on the [EGAnet R package](https://github.com/hfgolino/EGAnet) developed by:
 
 - **Hudson Golino** (University of Virginia) - Original author and maintainer
 - **Alexander P. Christensen** - Author and contributor

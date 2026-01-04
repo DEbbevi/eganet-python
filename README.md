@@ -25,7 +25,7 @@ pip install eganet
 Or install from source:
 
 ```bash
-git clone https://github.com/yourusername/eganet-python.git
+git clone https://github.com/DEbbevi/eganet-python.git
 cd eganet-python
 pip install -e .
 ```
@@ -114,7 +114,7 @@ If you use EGAnet-Python in your research, please cite both the Python package a
   title = {EGAnet-Python: Exploratory Graph Analysis for Python},
   author = {EGAnet Python Contributors},
   year = {2025},
-  url = {https://github.com/yourusername/eganet-python}
+  url = {https://github.com/DEbbevi/eganet-python}
 }
 ```
 

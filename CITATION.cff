@@ -4,7 +4,7 @@ message: "If you use this software, please cite both this package and the origin
 type: software
 authors:
   - name: "EGAnet Python Contributors"
-repository-code: "https://github.com/yourusername/eganet-python"
+repository-code: "https://github.com/DEbbevi/eganet-python"
 license: AGPL-3.0-or-later
 version: "0.1.0"
 date-released: "2025-01-04"

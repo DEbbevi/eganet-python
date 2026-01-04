@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eganet"
+version = "0.1.0"
+description = "Exploratory Graph Analysis - Python implementation of the EGAnet R package"
+readme = "README.md"
+license = {text = "AGPL-3.0-or-later"}
+authors = [
+    {name = "Hudson Golino", email = "hfg9s@virginia.edu"},
+    {name = "Alexander P. Christensen", email = "alexpaulchristensen@gmail.com"},
+]
+maintainers = [
+    {name = "EGAnet Python Contributors"},
+]
+keywords = [
+    "exploratory graph analysis",
+    "network psychometrics",
+    "dimensionality",
+    "community detection",
+    "factor analysis",
+    "psychology",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "networkx>=2.6",
+    "pandas>=1.3",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.4",
+    "seaborn>=0.11",
+    "joblib>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1",
+]
+docs = [
+    "sphinx>=6.0",
+    "sphinx-rtd-theme>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/hfgolino/EGAnet"
+Documentation = "https://r-ega.net"
+Repository = "https://github.com/hfgolino/EGAnet"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["eganet", "eganet.*"]
+exclude = ["eganet.R", "eganet.R.*", "eganet.src", "eganet.src.*", "eganet.man", "eganet.man.*", "eganet.inst", "eganet.inst.*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.py"]
+
+[tool.black]
+line-length = 88
+target-version = ["py39", "py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

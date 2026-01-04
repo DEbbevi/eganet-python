@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+title: "EGAnet-Python: Exploratory Graph Analysis for Python"
+message: "If you use this software, please cite both this package and the original R package."
+type: software
+authors:
+  - name: "EGAnet Python Contributors"
+repository-code: "https://github.com/yourusername/eganet-python"
+license: AGPL-3.0-or-later
+version: "0.1.0"
+date-released: "2025-01-04"
+keywords:
+  - exploratory graph analysis
+  - network psychometrics
+  - dimensionality
+  - community detection
+  - factor analysis
+  - psychology
+
+references:
+  - type: software
+    title: "EGAnet: Exploratory Graph Analysis – A framework for estimating the number of dimensions in multivariate data using network psychometrics"
+    authors:
+      - family-names: Golino
+        given-names: Hudson
+        orcid: "https://orcid.org/0000-0002-1601-1447"
+        affiliation: "University of Virginia"
+      - family-names: Christensen
+        given-names: Alexander P.
+        orcid: "https://orcid.org/0000-0002-9798-7037"
+    year: 2025
+    url: "https://r-ega.net"
+    doi: "10.32614/CRAN.package.EGAnet"
+    repository-code: "https://github.com/hfgolino/EGAnet"
+
+  - type: article
+    title: "Exploratory graph analysis: A new approach for estimating the number of dimensions in psychological research"
+    authors:
+      - family-names: Golino
+        given-names: Hudson F.
+      - family-names: Epskamp
+        given-names: Sacha
+    journal: "PLOS ONE"
+    year: 2017
+    volume: 12
+    issue: 6
+    start: e0174035
+    doi: "10.1371/journal.pone.0174035"
+
+  - type: article
+    title: "Investigating the performance of exploratory graph analysis and traditional techniques to identify the number of latent factors: A simulation and tutorial"
+    authors:
+      - family-names: Golino
+        given-names: Hudson
+      - family-names: Shi
+        given-names: Dingjing
+      - family-names: Christensen
+        given-names: Alexander P.
+      - family-names: Garrido
+        given-names: Luis Eduardo
+      - family-names: Nieto
+        given-names: Maria Dolores
+      - family-names: Sadana
+        given-names: Ritu
+      - family-names: Thiyagarajan
+        given-names: Jotheeswaran A.
+      - family-names: Martinez-Molina
+        given-names: Agustin
+    journal: "Psychological Methods"
+    year: 2020
+    volume: 25
+    issue: 3
+    start: 292
+    end: 320
+    doi: "10.1037/met0000255"
